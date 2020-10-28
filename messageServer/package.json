@@ -1,0 +1,20 @@
+{
+  "name": "messageserver",
+  "version": "0.0.1",
+  "description": "its a simple message server using apache kafka ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kafka",
+    "websockets"
+  ],
+  "author": "Luis Antonio Rodriguez Garcia",
+  "license": "MIT",
+  "dependencies": {
+    "kafka-node": "^5.0.0",
+    "websocket": "^1.0.32"
+  }
+}
